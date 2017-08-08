@@ -1,16 +1,11 @@
 import random
 
-def bubble_sort(items):
-    for i in range(len(items)):
-        for j in range(len(items) - 1 - i):
-            #print(i,j)
-            if items[j] > items[j+1]:
-                items[j], items[j + 1] = items[j + 1], items[j]  # Swap!
+def bubble_sort(mylist):
+    for i in range(len(mylist)):
+        for j in range(len(mylist)-1-i):
+            if mylist[i]>mylist[i+1]:
+                mylist[i], mylist[i+1]=mylist[i+1],mylist[i]
 
-
-random_items = [random.randint(-50, 100) for c in range(32)]
-
-
-print('Before: ', random_items)
-bubble_sort(random_items)
-print('After : ', random_items)
+alist = [3,2,5,6]
+bubble_sort1(alist)
+print(alist)
