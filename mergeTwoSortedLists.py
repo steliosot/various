@@ -18,5 +18,5 @@ def merge1(mylist1,mylist2):
                 i+=1
 l1=[1,3,6,8,9]
 l2=[0,4,5,8]
-m=(i for i in merge1(l1,l2))
-print(*m)
+merged=(i for i in merge1(l1,l2))
+print([i for i in merged])
