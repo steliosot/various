@@ -28,7 +28,6 @@ b=np.round(np.cov(X,y)[0][1]/np.var(X,ddof=1),4) #cov(x,y)/var(x)
 a=np.round(np.average(y)-(np.cov(X,y)[0][1]/np.var(X,ddof=1))*np.average(X),4) # avg(y)-avg(b)x
 
 print("Model: y=", a ,"+",b,"X")
-print("Coefficients: ",linreg.coef_)
-
+print("Coefficients: ",linreg.intercept_, " ", linreg.coef_)
 print(a+b*11)
 print(linreg.predict(11));
