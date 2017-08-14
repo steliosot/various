@@ -26,3 +26,5 @@ reduce(operator.concat, l)
 addToDict("operator.concat",round(time.time()-start,4))
 
 print(methods)
+
+# {'lambda': 3.9837, 'sum': 3.9457, 'compr': 0.0305, 'operator.concat': 3.9574}
