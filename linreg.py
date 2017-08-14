@@ -1,3 +1,5 @@
+# Mastering machine learning with scikit learn (Code for Chapter 2)
+
 import matplotlib.pyplot as plt
 import numpy as np
 X = [ [6],[8],[10],[14],[18] ]
