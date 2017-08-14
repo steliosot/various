@@ -1,5 +1,8 @@
 # Polynomial regression
 
+from sklearn.linear_model import LinearRegression
+from sklearn.preprocessing import PolynomialFeatures
+
 X_train = [ [6],[8],[10],[14],[18] ]
 y_train = [ [7],[9],[13],[17.5],[18] ]
 
