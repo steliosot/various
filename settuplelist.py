@@ -88,3 +88,11 @@ list(unique_everseen(lst))
 # t=(), t=tuple()
 # s=set()
 
+dict={1:'a',2:'b'}
+fot k,v in dict:
+    print(k,v)
+dict.values()
+dict.keys()
+dict.items()
+
+
