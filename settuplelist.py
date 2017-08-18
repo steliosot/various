@@ -55,3 +55,27 @@ print(list(OrderedDict.fromkeys('abracadabra')))
 from iteration_utilities import unique_everseen
 lst = [1,1,1,2,3,2,2,2,1,3,4]
 list(unique_everseen(lst))
+
+# lists are mutable, tuples are immutable
+#
+# mytuple = ('a','b','c')
+# # no append, remove, pop etc.
+#
+# print(mytuple)
+#
+# myset = {'a','b','c','a'}
+#
+# print('a' in myset) # more optimized
+#
+# set1 = {1,2,3,4,5}
+# set2 = {1,3,5,100}
+#
+# print(set1.intersection(set2))
+# print(set1.difference(set2))
+# print(set1.union(set2))
+#
+# # Create an empty list
+# s=[], s=list()
+# t=(), t=tuple()
+# s=set()
+
