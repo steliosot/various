@@ -89,8 +89,8 @@ list(unique_everseen(lst))
 # s=set()
 
 dict={1:'a',2:'b'}
-fot k,v in dict:
-    print(k,v)
+fot k,v in dict.items(): # for k in dict:
+    print(k,v)           #  print(k, x[k])
 dict.values()
 dict.keys()
 dict.items()
