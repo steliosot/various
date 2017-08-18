@@ -1,3 +1,10 @@
+
+# list -> general purpose, grow and shrink as you go, sortable, sequence type
+# Tuple -> Immutable, good for fixed data, faster than lists, sequence type
+# Set -> No dups, very fast comparing to lists, math operations( union, intersect, difference), Unordered
+# Dict -> key value pair, unordered
+
+
 # Lists
 
 l = [1,2,3,4,5]
@@ -23,6 +30,8 @@ for i,v in enumerate(l):
 
 for i in enumerate(l):
     print(i)
+
+
 
 l=[[i,v] for i,v in enumerate(l)]
 
